@@ -2,8 +2,7 @@
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="150dp"
     android:padding="5dp">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -13,7 +12,7 @@
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:scaleType="fitCenter"
-            tools:src="@drawable/placeholder"/>
+            tools:src="@drawable/content"/>
         <TextView
             android:paddingLeft="5dp"
             android:id="@+id/title_of_book_text_view"
@@ -43,13 +42,14 @@
             tools:text="Android is a movement that has transferred data from laptop to hand-held devices like mobiles. Though there are alternate technologies that "
             android:textColor="@android:color/black"
             android:textSize="14sp"
-            android:maxLines="6"/>
+            android:maxLines="5"/>
         <TextView
             android:id="@+id/published_date_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="2014"
+            android:layout_below="@id/description_of_book_text_view"
             android:layout_alignParentRight="true"
-            android:layout_below="@id/title_of_book_text_view"/>
+            android:layout_alignParentBottom="true"/>
     </RelativeLayout>
 </android.support.v7.widget.CardView>
