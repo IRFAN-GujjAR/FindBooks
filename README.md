@@ -21,6 +21,8 @@ License
 -------
 Copyright (c) 2019 IRFAN GujjAR
 
+http://www.apache.org/licenses/LICENSE-2.0
+
 Besides the above notice, the following license applies and this license notice
 must be included in all works derived from this project.
 
